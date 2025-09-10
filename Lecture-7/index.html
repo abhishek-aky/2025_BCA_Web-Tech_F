@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+
+    <form action="#" method="post">
+
+        <fieldset>
+
+        <legend>Registration Form</legend>
+
+        <label for="naam">Full Name: </label>
+    <input type="text" name="name" id="naam" placeholder="Name please: " required>
+
+    <hr>
+
+    <label for="mail">email: </label>
+    <input type="email" name="email" id="mail" placeholder="abc@email.com" required>
+    <hr>
+    <label for="dob">DOB: </label>
+    <input type="number" name="DOB" id="" min="18" required>
+    <hr>
+
+    <label for="gender">Gender: </label>
+    Male:<input type="radio" name="gender" id="gender" required>
+    Female: <input type="radio" name="gender" id="gender" required>
+    Others: <input type="radio" name="gender" id="gender" required>
+    <hr>
+
+    <label for="opt">How did u hear about the conference?: </label>
+    <select name="" id="opt">
+        <option value="Select-Options: ">Select-options: </option>
+        <option value="Social Media">Social-Media</option>
+        <option value="Email_NewsLetter">Email-NewsLetter</option>
+        <option value="Colleague">Colleague</option>
+    </select>
+
+    <hr>
+    
+
+    <label for="pre_lang">Preferred Languages:? </label>
+    English: <input type="checkbox" name="" id="pre_lang">
+    Spanish: <input type="checkbox" name="" id="pre_lang">
+    French: <input type="checkbox" name="" id="pre_lang">
+    Other: <input type="checkbox" name="" id="pre_lang">
+    <hr>
+
+    <label for="at_sug">Attendes Suggestion: </label>
+    <textarea name="" id="at_sug" rows="3" cols="4"></textarea>
+    <hr>
+    <label for="passkey">Password:</label>
+    <input type="password" name="password" id="passkey" required>
+    <hr>
+    <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>
