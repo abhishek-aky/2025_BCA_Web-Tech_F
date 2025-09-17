@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead{
+            background-color:blue;
+            border: 5px solid black;
+        }
+        tbody{
+            background-color:orange;
+            border: 8px solid magenta;
+        }
+        tfoot{
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table border="20px " align="center" cellPadding="20px" cellSpacing="5px" bgcolor="navyblue" fontcolor="red">
+        <thead>
+            <th>Days/Period</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <th>1</th>
+            <td>Hindi</td>
+            <td>English</td>
+            <td>Science</td>
+            <td rowspan="2">SST</td>
+            <td rowspan="3">Maths</td>
+        </tr>
+
+        <tr>
+            <th>2</th>
+            <td>EVS</td>
+            <td>Games</td>
+            <td>Computers</td>
+            <!-- <td>SST</td> -->
+            <!-- <td>Maths</td> -->
+        </tr>
+            
+        <tr>
+            <th>3</th>
+            <td>Computers</td>
+            <td>SST</td>
+            <td>EVS</td>
+            <td>Games</td>
+            <!-- <td>Maths</td> -->
+        </tr>
+
+        <tr>
+            <th colspan="6" border="20px">Lunch</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>English</td>
+            <td>Hindi</td>
+            <td>Sanskrit</td>
+            <td>Science</td>
+            <td rowspan="2">Games</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>English</td>
+            <td>Hindi</td>
+            <td>Sanskrit</td>
+            <td>EVS</td>
+            <!-- <td>Games</td>    -->
+        </tr>
+        <tr>
+            <th>6</th>
+            <td>Games</td>
+            <td>English</td>
+            <td>Music</td>
+            <td>SST</td>
+            <td>Maths</td>
+        </tr>
+
+
+        </tbody>
+
+        <tfoot>
+            <th colspan="6">Time table is for VII Class</th>
+        </tfoot>
+
+    </table>
+
+
+</body>
+</html>
